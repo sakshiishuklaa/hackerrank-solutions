@@ -12,3 +12,4 @@
 > 10. We don't need conditional logic to handle sorting rules.By listing multiple columns in the ORDER BY clause (Grade DESC, Name ASC, Marks ASC), SQL automatically treats them as a sequential chain of tie-breakers.
 > 11. We cannot select columns that are either not in group by or have aggregates over them when using group by clause.
 > 12. When using multi-column filtering with tuples like (col1, col2) IN (SELECT col1, col2 FROM ...), the number and data types of the columns inside the subquery must match the number and types of the outer columns.
+> 13. We use functions like power, sqrt, and round for mathematical calculations.
